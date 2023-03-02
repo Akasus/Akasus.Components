@@ -1,0 +1,8 @@
+﻿Akasus.Components.Ram.DataBusSize:
+    Page: Ports
+    Heading: Databus Settings
+    Min: 1
+    Max: 8
+    SliderInterval: 1
+    DecimalPlacesToDisplay: 1
+    PreviewText: Lower_Higher

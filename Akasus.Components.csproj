@@ -1,0 +1,102 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Akasus.Components</RootNamespace>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Akasus.Display">
+      <HintPath>Akasus.Components\assemblies\client\Akasus.Display.dll</HintPath>
+    </Reference>
+    <Reference Include="Akasus.UI">
+      <HintPath>Akasus.Components\assemblies\client\Akasus.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="JimmysUnityUtilities">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\JimmysUnityUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="LICC">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LICC.dll</HintPath>
+    </Reference>
+    <Reference Include="SUCC">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\SUCC.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Client">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicAPI.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicAPI.Server">
+      <HintPath>$(LogicWorld)\Server\LogicAPI.Server.dll</HintPath>
+    </Reference>
+	<Reference Include="Server">
+      <HintPath>$(LogicWorld)\Server\Server.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLocalization">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicLocalization.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicLog">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicLog.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicSettings.Core">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicSettings.Core.dll</HintPath>
+    </Reference>
+	<Reference Include="LogicSettings.Internal">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicSettings.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicUI">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicUI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.dll</HintPath>
+    </Reference>
+	<Reference Include="LogicWorld.UI">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LogicWorld.SharedCode">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.SharedCode.dll</HintPath>
+    </Reference>
+	<Reference Include="LogicWorld.Rendering">
+	  <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.Rendering.dll</HintPath>
+	</Reference>
+	<Reference Include="LogicWorld.Interfaces">
+	  <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.Interfaces.dll</HintPath>
+	</Reference>
+	<Reference Include="LogicWorld.UnityHacksAndExtensions">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.UnityHacksAndExtensions.dll</HintPath>
+    </Reference>
+	<Reference Include="LogicWorld.References">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\LogicWorld.References.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+	<Reference Include="UnityEngine">
+      <HintPath>$(LogicWorld)\Logic_World_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Akasus.Components\src\shared\" />
+    <Folder Include="Akasus.Components\src\client\" />
+    <Folder Include="Akasus.Components\src\server\" />
+    <Folder Include="Akasus.Components\assemblies\shared\" />
+    <Folder Include="Akasus.Components\assemblies\client\" />
+    <Folder Include="Akasus.Components\assemblies\server\" />
+    <Folder Include="Akasus.Components\assets\" />
+    <Folder Include="Akasus.Components\components\" />
+  </ItemGroup>
+
+</Project>
